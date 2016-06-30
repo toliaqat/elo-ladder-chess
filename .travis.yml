@@ -1,3 +1,4 @@
+sudo: required
 script: bash -ex .travis-ci.sh
 env:
   global:
