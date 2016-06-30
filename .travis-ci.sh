@@ -29,7 +29,7 @@ opam install ${OPAM_PACKAGES}
 eval `opam config -env`
 
 # Post-boilerplate
-git clone http://github.com/robhoes/elo-ladder
+git clone http://github.com/toliaqat/elo-ladder
 cd elo-ladder
 make
 ./ladder print --gh-pages --title "XenServer Chess Ladder" ../players ../games --reverse > index.md
@@ -52,7 +52,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   git config --global user.name "Travis"
 
   #using token clone gh-pages branch
-  git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/robhoes/elo-ladder-chess.git  gh-pages > /dev/null
+  git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/toliaqat/elo-ladder-chess.git  gh-pages > /dev/null
 
   #go into directory and copy data we're interested in to that directory
   cd gh-pages
