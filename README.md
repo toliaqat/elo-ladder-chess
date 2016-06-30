@@ -1,4 +1,4 @@
-# XenServer Chess Ladder [![Build Status](https://travis-ci.org/robhoes/elo-ladder-chess.png)](https://travis-ci.org/robhoes/elo-ladder-chess)
+# MiS Chess Ladder [![Build Status](https://travis-ci.org/robhoes/elo-ladder-chess.png)](https://travis-ci.org/robhoes/elo-ladder-chess)
 
 _An Elo-rating based chess ladder competition_
 
